@@ -29,7 +29,7 @@ jobs:
           echo "ANDROID_NDK_HOME=$( dirname /Users/runner/Library/Android/sdk/ndk/27.*/.)" >>$GITHUB_ENV 
           echo $GITHUB_ENV
           #brew install cmake ninja
-          $ANDROID_NDK_HOME/ndk-build
+          #$ANDROID_NDK_HOME/ndk-build
           ls -l /Users/runner/Library/Android/sdk/ndk/27.*/build/cmake
     - name: cmake
       run: |
