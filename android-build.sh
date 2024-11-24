@@ -1,5 +1,5 @@
 #/bin/bash
 
-ls -l /usr/bin
+ls -l /Users
 
 echo end
