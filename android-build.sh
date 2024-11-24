@@ -1,9 +1,5 @@
-h#/bin/bash
+#/bin/bash
 
-which cc
-
-brew list
-
-ls -l /
+ls -l /usr/bin
 
 echo end
