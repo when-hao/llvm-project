@@ -1,5 +1,9 @@
-#/bin/bash
+h#/bin/bash
 
-echo $CC
+which cc
+
+brew list
+
+ls -l /
 
 echo end
