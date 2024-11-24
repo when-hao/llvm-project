@@ -40,6 +40,7 @@ jobs:
           ninja bolt
     - name: compress
       run: |
+          cd MyBuild_llvm
           ls -l 
           ls -l ./bin
           tar -cvJf bolt-build.tar.xz bin lib
@@ -47,7 +48,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: built
-        path: ./bolt-build.tar.xz
+        path: ./MyBuild_llvm/bolt-build.tar.xz
       
     #- name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
