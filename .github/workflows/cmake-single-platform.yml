@@ -39,6 +39,7 @@ jobs:
           cd MyBuild_llvm
           ninja bolt
           ls -l 
+          ls -l ./bin
     - name: upload-artifact
       uses: actions/upload-artifact@v4
       with:
